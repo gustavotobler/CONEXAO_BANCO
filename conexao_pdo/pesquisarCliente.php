@@ -47,5 +47,7 @@ if(!$clientes){
         <td><?=htmlspecialchars($cliente['endereco'])?></td>
         <td><?=htmlspecialchars($cliente['telefone'])?></td>
         <td><?=htmlspecialchars($cliente['email'])?></td>
+        <td><a href="atualizarCliente.php"=<?=$cliente['id_cliente']?>">Editar</a></td>
     </tr>
+    <?php endforeach; ?>
 </table>
