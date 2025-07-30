@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Excluir Cliente</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD PDO - Display Centralizado</title>
     <style>
-        body {
+
+body {
             background-color: red;
             margin: 0;
             padding: 0;
@@ -62,42 +62,13 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
-        .card {
-            height: 20rem;
-            background-color: #DCDCDC;
-            margin: 100px auto 0 auto; /* afastar do menu fixo e centralizar */
-            border-radius: 8px;
-            width: 30rem;
-            padding: 20px;
-        }
-        .card input {
-            margin-top: 10px;
-            height: 40px;
-            border-radius: 8px;
-            border: 0;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        .card label {
-            margin-top: 15px;
-            font-size: 20px;
-            display: block;
-        }
-        .card p {
-            margin-top: 20px;
-            font-size: 20px;
-            color: red;
-        }
-        button.btn-outline-dark {
-            margin-top: 15px;
-        }
     </style>
 </head>
 <body>
-    <ul>
+<ul>
         <li><a href="index.php">Início</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">DropDown</a>
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
             <div class="dropdown-content">
                 <a href="atualizarCliente.php">Atualizar</a>
                 <a href="deletarCliente.php">Delete</a>
@@ -107,14 +78,7 @@
             </div>
         </li>
     </ul>
-    <div class="card">
-        <h2>Excluir Cliente</h2>
-        <strong><p>Digite o ID do cliente que deseja excluir</p></strong>
-        <form action="processarDelecao.php" method="POST">
-            <label for="id">ID do Cliente:</label>
-            <input type="number" id="id" name="id" required min="1" />
-            <button type="submit" class="btn btn-outline-dark">Deletar</button>
-        </form>
-    </div>
+
+  
 </body>
 </html>
