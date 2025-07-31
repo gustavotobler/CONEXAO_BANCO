@@ -9,7 +9,7 @@ if(!$busca){
 <form action="pesquisarCliente.php" method="GET">
     <label for="busca">Digite o ID ou Nome do bobbie goods: </label>
     <input type="text" id="busca" name="busca" required>
-    <button type="submit">Labubu</button>
+    <button type="submit">Buscar</button>
 </form>
 <?php 
 exit;
