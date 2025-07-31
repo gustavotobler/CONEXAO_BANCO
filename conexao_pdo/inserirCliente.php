@@ -102,7 +102,7 @@
     <ul>
         <li><a href="index.php">Início</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">DropDown</a>
+            <a href="javascript:void(0)" class="dropbtn">Cliente</a>
             <div class="dropdown-content">
                 <a href="atualizarCliente.php">Atualizar</a>
                 <a href="deletarCliente.php">Delete</a>
@@ -131,5 +131,10 @@
             <button type="submit" class="btn btn-outline-dark">Cadastrar Cliente</button>
         </form>
     </div>
+    <CENTER>
+<ADRESS>
+    Gustavo Tobler - Técnico em Desenvolvimento de sistemas
+</ADRESS>
+</CENTER>
 </body>
 </html>

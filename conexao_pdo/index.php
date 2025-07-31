@@ -68,7 +68,7 @@ body {
 <ul>
         <li><a href="index.php">Início</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <a href="javascript:void(0)" class="dropbtn">Cliente</a>
             <div class="dropdown-content">
                 <a href="atualizarCliente.php">Atualizar</a>
                 <a href="deletarCliente.php">Delete</a>
@@ -78,6 +78,11 @@ body {
             </div>
         </li>
     </ul>
+    <CENTER>
+<ADRESS>
+    Gustavo Tobler - Técnico em Desenvolvimento de sistemas
+</ADRESS>
+</CENTER>
 
   
 </body>
